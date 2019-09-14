@@ -1,0 +1,20 @@
+.info {
+  margin-top: 16px;
+  display: grid;
+  grid-template-areas: "avatar description";
+  grid-template-columns: 128px 1fr;
+  /* align-items: center; */
+}
+
+.avatar {
+  grid-area: avatar;
+}
+.description {
+  grid-area: description;
+  margin-left: 32px;
+}
+
+.content {
+  margin-left: 16px;
+  grid-area: content;
+}
