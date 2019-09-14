@@ -13,8 +13,3 @@
   grid-area: description;
   margin-left: 32px;
 }
-
-.content {
-  margin-left: 16px;
-  grid-area: content;
-}

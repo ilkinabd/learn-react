@@ -1,4 +1,20 @@
 .navbar {
-    background: blue;
-    grid-area: navbar;
-  }
+  background: blue;
+  grid-area: navbar;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navbar ul > li > a {
+  display: block;
+  padding: 8px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar ul > li > a.active {
+  text-decoration: underline;
+}

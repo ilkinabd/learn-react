@@ -1,9 +1,15 @@
 .header {
   background: green;
   grid-area: header;
+  display: grid;
+  grid-template-areas: 
+  "logo"
+  ;
+  align-items: center;
 }
+
 
 .logo {
   margin-left: 16px;
-  margin-top: 10px;
+  grid-area: logo;
 }

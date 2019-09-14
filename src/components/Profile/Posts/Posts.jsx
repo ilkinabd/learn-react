@@ -1,6 +1,6 @@
 import React from 'react';
 import Post from './Post/Post';
-import classes from './Posts.module.css';
+// import classes from './Posts.module.css';
 
 function Posts() {
     return (
@@ -11,7 +11,8 @@ function Posts() {
                 <input type="submit" value="Send post" />
             </form>
             <div className="postItems">
-                <Post />
+                <Post message="Hellow world" />
+                <Post message="I am sad" />
             </div>
         </div>
     );

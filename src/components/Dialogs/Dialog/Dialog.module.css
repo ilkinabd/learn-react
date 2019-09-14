@@ -1,0 +1,12 @@
+.dialog {
+  padding: 16px;
+  /* grid-area: dialogItem; */
+}
+
+.dialog.active {
+  color: red;
+}
+
+.dialog:hover {
+  cursor: pointer;
+}

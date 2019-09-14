@@ -7,7 +7,9 @@
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
 }
-
+a {
+  display: block;
+}
 img {
   display: block;
   max-width: 100%;
@@ -18,4 +20,9 @@ textarea {
   display: block;
   width: 100%;
   box-sizing: border-box;
+}
+
+.content {
+  margin-left: 16px;
+  grid-area: content;
 }
