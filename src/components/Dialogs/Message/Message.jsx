@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './Message.module.css';
 
-function Message() {
+function Message(props) {
     return (
-        <div className={classes.message}>
-            Hello
+        <div id={props.id} className={classes.message}>
+            {props.message}
         </div>
     );
 }

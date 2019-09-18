@@ -1,11 +1,11 @@
 .dialogs {
   display: grid;
-  grid-template-areas: "dialogsItems messages";
+  grid-template-areas: "items messages";
   grid-template-columns: 2fr 10fr;
 }
 
 .items {
-  grid-area: dialogsItems;
+  grid-area: items;
 }
 
 .messages {
