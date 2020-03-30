@@ -1,10 +1,10 @@
 import React from 'react';
 // import classes from './Post.module.css';
 
-function Post(props) {
+function Post({ content }) {
     return (
         <div className="post">
-            <p>{props.message}</p>
+            <p>{content}</p>
         </div>
     );
 }

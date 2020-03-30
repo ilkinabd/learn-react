@@ -1,6 +1,6 @@
 import React from 'react';
-import Posts from './Posts/Posts';
 import classes from './Profile.module.css';
+import PostsContainer from './Posts/PostsContainer';
 
 function Profile() {
     return (
@@ -16,7 +16,7 @@ function Profile() {
                     <p>Description</p>
                 </div>
             </div>
-            <Posts />
+            <PostsContainer />
         </div>
     );
 }

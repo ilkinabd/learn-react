@@ -1,23 +1,21 @@
-import React from 'react';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
-import Dialogs from './components/Dialogs/Dialogs';
-import Profile from './components/Profile/Profile';
-import { BrowserRouter, Route } from 'react-router-dom';
-import classes from './App.module.css';
+import React from "react";
+import Header from "./components/Header/Header";
+import Navbar from "./components/Navbar/Navbar";
+import Profile from "./components/Profile/Profile";
+import { Route } from "react-router-dom";
+import classes from "./App.module.css";
+import DialogsContainer from "./components/Dialogs/DialogsContainer";
 
 function App() {
   return (
-    <BrowserRouter>
-      <div className={classes.App}>
-        <Header />
-        <Navbar />
-        <div className={classes.content}>
-          <Route path='/dialogs' component={Dialogs} />
-          <Route path='/profile' component={Profile} />
-        </div>
+    <div className={classes.App}>
+      <Header />
+      <Navbar />
+      <div className={classes.content}>
+        <Route path="/dialogs" render={() => <DialogsContainer />} />
+        <Route path="/profile" render={() => <Profile />} />
       </div>
-    </BrowserRouter>
+    </div>
   );
 }
 
