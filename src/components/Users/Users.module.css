@@ -1,0 +1,64 @@
+.user {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.users {
+  max-width: 400px;
+}
+
+.userAvatar {
+  overflow: hidden;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+.userAvatar img {
+  border-radius: 50%;
+}
+
+.userFollow > button {
+  display: block;
+  width: 100%;
+}
+
+.userFio {
+  flex-basis: 70%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.userLocation {
+  flex-basis: 30%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.userLeft {
+  flex-basis: 100px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  box-sizing: border-box;
+}
+
+.userFollow {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.userRight {
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-left: 16px;
+  padding: 8px;
+}
+
+.userStatus {
+  margin-top: 0;
+  margin-bottom: 0;
+  align-self: flex-end;
+}
